@@ -1,5 +1,5 @@
 # Nest Admin
-A admin template based on [React](https://reactjs.org/) & [Ant Design](https://ant.design/)
+A admin template based on [React](https://reactjs.org/) & [Ant Design](https://ant.design/). Related reponsitory: [Nest Server](https://github.com/roger-twan/nest-server)
 
 ![React](https://img.shields.io/badge/React-18.2.0-blue)
 ![Vite](https://img.shields.io/badge/Vite-5.0.8-blue)
