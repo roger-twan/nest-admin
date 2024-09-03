@@ -1,0 +1,24 @@
+.list-table {
+  .ant-table-thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+    .ant-table-cell {
+      border-radius: 0 !important;
+    }
+  }
+  .action-column .ant-btn {
+    margin-right: 8px;
+    padding: 0;
+  }
+}
+
+.page {
+  background-color: white;
+  padding: 20px;
+
+  &.table-page {
+    padding: 0;
+  }
+}

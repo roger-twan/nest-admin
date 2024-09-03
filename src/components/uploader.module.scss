@@ -1,0 +1,31 @@
+.uploader {
+  :global .ant-upload,
+  :global .ant-upload-list-item-container,
+  :global .ant-upload-list-item {
+    margin: 0 !important;
+    width: 100% !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+  }
+
+  :global .ant-upload-list-item-container {
+    min-height: 102px;
+  }
+
+  :global .ant-upload-list-item-uploading {
+    display: flex;
+    justify-content: center;
+  }
+
+  :global .ant-upload-list-item {
+    padding: 0 !important;
+    &::before {
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
+}
+:global .upload-limit .ant-upload {
+    display: none !important;
+  
+}

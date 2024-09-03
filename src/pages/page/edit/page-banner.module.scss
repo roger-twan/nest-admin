@@ -1,0 +1,64 @@
+.page-banner {
+  display: flex;
+  flex-wrap: wrap;
+
+  > div {
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  
+  .add-btn {
+    border: 1px dashed #d9d9d9;
+    width: 140px;
+    min-height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    cursor: pointer;
+
+    &:hover {
+      color: #f15507;
+      border-color: #f15507;
+    }
+  }
+}
+
+.page-banner-item {
+  position: relative;
+  display: flex;
+  width: 140px;
+  min-height: 168px;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #d9d9d9;
+  padding: 6px;
+
+  .close-btn {
+    display: none;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 0;
+    min-width: auto;
+    width: 23px;
+    height: 23px;
+    z-index: 2;
+  }
+
+  &:hover .close-btn {
+    display: block;
+  }
+
+  .type-selector {
+    margin: 2px 0 ;
+  }
+
+  :global .ant-select-selector {
+    border-radius: 0 !important;
+  }
+
+  :global .ant-input-affix-wrapper {
+    border-radius: 0;
+  }
+}

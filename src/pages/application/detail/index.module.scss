@@ -1,0 +1,58 @@
+.job-detail-page {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+
+  :global .ant-form-item {
+    margin-bottom: 12px;
+
+    label {
+      font-weight: bold;
+    }
+  }
+
+  .pdf-wrapper {
+    border: 1px solid #d9d9d9;
+    width: 620px;
+    min-height: 30px;
+    max-height: 600px;
+    overflow: auto;
+
+    .err-message {
+      margin: 4px;
+      color: #666;
+    }
+  }
+
+  .relative-application {
+    position: sticky;
+    top: 20px;
+    padding: 20px;
+    background-color: #F4F4F4;
+
+    .application-list {
+      .application-item {
+        width: 220px;
+        padding: 10px;
+        margin-bottom: 6px;
+        background-color: white;
+
+        > div {
+          margin-bottom: 6px;
+        }
+      }
+    }
+  }
+
+  .action-wrapper {
+    position: fixed;
+    display: flex;
+    left: 200px;
+    padding: 16px 30px 16px 240px;
+    bottom: 0;
+    width: calc(100% - 200px);
+    background-color: white;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+  }
+}

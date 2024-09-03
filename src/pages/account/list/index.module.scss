@@ -1,0 +1,13 @@
+.add-btn {
+  position: absolute;
+  top: 62px; // 6+56
+  right: 24px;
+  z-index: 2;
+}
+
+.list-table {
+  :global .action-column .ant-btn {
+    margin-right: 8px;
+    padding: 0;
+  }
+}

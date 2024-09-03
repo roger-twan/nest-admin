@@ -1,0 +1,48 @@
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  .logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .login-form {
+    width: 280px;
+
+    .login-title {
+      margin-bottom: 20px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .login-form-item-first ~ div {
+      margin-bottom: 12px;
+    }
+
+    .login-form-content {
+      padding: 20px;
+    }
+  
+    .login-form-button {
+      width: 100%;
+    }
+  }
+
+  .login-bg-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+  .login-bg-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+}

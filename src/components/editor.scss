@@ -1,0 +1,30 @@
+.quill {
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  .ql-toolbar {
+    border: 1px solid #d9d9d9;
+  }
+  .ql-container {
+    flex: 1;
+    height: auto;
+    border: 1px solid #d9d9d9;
+  }
+
+  .ql-editor {
+    max-height: 850px;
+  }
+
+  .ql-snow .ql-picker.ql-size .ql-picker-label::before, 
+  .ql-snow .ql-picker.ql-size .ql-picker-item::before {
+    content: attr(data-value);
+    font-size: attr(data-value);
+  }
+
+  .ql-picker-item[data-value="10px"]::before { font-size: 10px;}
+  .ql-picker-item[data-value="12px"]::before { font-size: 12px;}
+  .ql-picker-item[data-value="14px"]::before { font-size: 14px;}
+  .ql-picker-item[data-value="16px"]::before { font-size: 16px;}
+  .ql-picker-item[data-value="18px"]::before { font-size: 18px;}
+  .ql-picker-item[data-value="20px"]::before { font-size: 20px;}
+}
